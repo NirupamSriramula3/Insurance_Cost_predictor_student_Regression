@@ -1,0 +1,56 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyd
+
+# Virtual environments
+venv/
+env/
+.venv/
+*_env/
+health_insurance_env/
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# VS Code settings
+.vscode/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Python build files
+build/
+dist/
+*.egg-info/
+
+# Test and coverage files
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Generated artifacts (uncomment if you don't want to upload them)
+# artifacts/visuals/
+# artifacts/models/
+
+# Large datasets (uncomment if you don't want to upload CSV files)
+# *.csv
+
+# Secrets and local configuration
+.streamlit/secrets.toml
+
+
+artifacts/models/regression_rf_model.joblib
